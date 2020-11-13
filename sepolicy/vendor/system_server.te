@@ -1,2 +1,7 @@
 binder_call(system_server, glgps)
 binder_call(system_server, hal_lineage_fod_sdm845)
+
+set_prop(system_server, defaultthermal_prop);
+get_prop(system_server, defaultthermal_prop);
+set_prop(system_server, defaultperf_prop);
+get_prop(system_server, defaultperf_prop);
