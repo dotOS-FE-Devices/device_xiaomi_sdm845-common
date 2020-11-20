@@ -141,3 +141,11 @@ ro.vendor.extension_library=libqti-perfd-client.so
 # USB
 vendor.usb.diag.func.name=diag
 vendor.usb.use_ffs_mtp=0
+
+# Support night mode 2.0
+ro.eyecare.brightness.threshold=-1
+ro.eyecare.brightness.level=8
+ro.hist.brightness.threshold=7
+
+# Property for display feature histogram
+ro.displayfeature.histogram.enable=true
