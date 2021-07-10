@@ -741,7 +741,7 @@ vendor/lib/libscvePanorama.so
 vendor/lib/libscvePanorama_lite.so
 vendor/lib/libscveScan3D.so
 
-# Soter
+# Soter - LA.UM.9.8.r1-02700-SDM710.0
 -vendor/app/SoterService/SoterService.apk
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
