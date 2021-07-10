@@ -337,9 +337,11 @@ vendor/lib64/libllvm-glnext.so|c11e3f0f5b6d21d1badcca3bc8cac947c781deeb
 vendor/lib64/libllvm-qcom.so|a80c58c8f316af15a7a2d089536f824836f6c056
 vendor/lib64/libpvr.so|ac4805ba7a7c78570a60340d01248d258046e456
 
-# Graphics (Adreno firmware)
+# Graphics (Adreno firmware) - LA.UM.9.8.r1-02700-SDM710.0
 vendor/firmware/a630_gmu.bin
 vendor/firmware/a630_sqe.fw
+
+# Graphics (Adreno firmware)
 vendor/firmware/a630_zap.b00
 vendor/firmware/a630_zap.b01
 vendor/firmware/a630_zap.b02
