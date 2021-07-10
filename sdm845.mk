@@ -130,6 +130,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libsuspend
 
+# Dex
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+
 # Common init scripts
 PRODUCT_PACKAGES += \
     init.qcom.early_boot.sh \
