@@ -132,6 +132,13 @@ PRODUCT_PACKAGES += \
 
 # Dex
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
+PRODUCT_PROPERTY_OVERRIDES += \
+    dalvik.vm.boot-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.boot-dex2oat-threads=8 \
+    dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.dex2oat-threads=8 \
+    dalvik.vm.image-dex2oat-cpu-set=0,1,2,3,4,5,6,7 \
+    dalvik.vm.image-dex2oat-threads=8
 
 # Common init scripts
 PRODUCT_PACKAGES += \
