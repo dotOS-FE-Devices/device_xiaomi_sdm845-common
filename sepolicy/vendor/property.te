@@ -26,3 +26,6 @@ not_compatible_property(`
     system_public_prop(defaultthermal_prop)
     system_public_prop(defaultperf_prop)
 ')
+
+# Dirac
+type dirac_prop, property_type;
