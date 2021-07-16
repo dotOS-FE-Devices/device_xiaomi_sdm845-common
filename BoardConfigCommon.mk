@@ -64,6 +64,9 @@ TARGET_USES_QTI_CAMERA_DEVICE := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
