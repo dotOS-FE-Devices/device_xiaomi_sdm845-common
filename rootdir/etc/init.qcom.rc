@@ -168,6 +168,23 @@ on boot
     chown bluetooth net_bt /sys/class/rfkill/rfkill0/device/extldo
     chmod 0660 /sys/class/rfkill/rfkill0/device/extldo
 
+    # KCAL Permissions
+    chown system system /sys/module/msm_drm/parameters/kcal_red
+    chown system system /sys/module/msm_drm/parameters/kcal_green
+    chown system system /sys/module/msm_drm/parameters/kcal_blue
+    chown system system /sys/module/msm_drm/parameters/kcal_sat
+    chown system system /sys/module/msm_drm/parameters/kcal_hue
+    chown system system /sys/module/msm_drm/parameters/kcal_cont
+    chown system system /sys/module/msm_drm/parameters/kcal_val
+
+    chmod 0660 /sys/module/msm_drm/parameters/kcal_red
+    chmod 0660 /sys/module/msm_drm/parameters/kcal_green
+    chmod 0660 /sys/module/msm_drm/parameters/kcal_blue
+    chmod 0660 /sys/module/msm_drm/parameters/kcal_sat
+    chmod 0660 /sys/module/msm_drm/parameters/kcal_hue
+    chmod 0660 /sys/module/msm_drm/parameters/kcal_cont
+    chmod 0660 /sys/module/msm_drm/parameters/kcal_val
+
     # This location is used by QCRIL to host UNIX domain
     # socket files used for internal IPC within QCRIL
     # modules
