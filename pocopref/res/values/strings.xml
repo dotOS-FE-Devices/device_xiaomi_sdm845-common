@@ -13,7 +13,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="pocopref_title">POCO Extras</string>
+    <string name="pocopref_title">Mi Extras</string>
 
      <!-- thermal Profiles -->
     <string name="thermal_title">Thermal Profiles</string>
