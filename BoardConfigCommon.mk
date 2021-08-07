@@ -165,3 +165,6 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Broken Rules
 BUILD_BROKEN_DUP_RULES := true
+
+# Color Management
+TARGET_HAS_WIDE_COLOR_DISPLAY := true

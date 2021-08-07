@@ -159,3 +159,7 @@ ro.hist.brightness.threshold=7
 
 # Property for display feature histogram
 ro.displayfeature.histogram.enable=true
+
+# Color Management
+ro.surface_flinger.has_wide_color_display=1
+ro.surface_flinger.use_color_management=1
