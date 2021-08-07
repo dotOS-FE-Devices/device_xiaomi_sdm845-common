@@ -7,4 +7,4 @@ set_prop(system_server, defaultperf_prop);
 get_prop(system_server, defaultperf_prop);
 
 # Smartcharging
-allow system_server sysfs_battery_supply:file { getattr open read write };
+allow system_server sysfs_battery_supply:file rw_file_perms;
